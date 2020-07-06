@@ -7,7 +7,7 @@
         color:orange;
     }
     .pink-subtitle {
-        color: deeppink;
+        color: deeppink !important;
         font-family: cursive;
     }
     .brown-subtitle {

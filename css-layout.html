@@ -5,9 +5,10 @@
         <link rel="stylesheet" href="css-layout.css">
     </head>
     <body>
-        <!-- "We've already proven that id declarations override class declarations, regardless of where they are declared in your style element CSS" - freeCodeCamp.org -->
-        <h1 class="pink-subtitle green-subtitle brown-subtitle" id="orange-subitle" style="color:magenta">CSS LAYOUT: INHERITANCE</h1>
-        <!-- But we also can override class declarations with Inline Styles -->
+        <!-- "In many situations, you will use CSS libraries. These may accidentally override your own CSS." - freeCodeCamp.org -->
+        <!-- "So when you absolutely need to be sure that an element has specific CSS, you can use !important" - freeCodeCamp.org -->
+        <h1 class="pink-subtitle green-subtitle brown-subtitle" id="orange-subitle" style="color: red;">CSS LAYOUT: INHERITANCE</h1>
+        <!-- So, in this very special case, the style of h1 element will remain pink. Even if we have another class and id attributes with their own styling reference -->
         <h5 class="injected-text">margin</h5>
 
         <div class="box yellow-box">
