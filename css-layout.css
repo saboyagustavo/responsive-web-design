@@ -7,6 +7,12 @@
         color: deeppink;
         font-family: cursive;
     }
+    .brown-subtitle {
+        color:brown;
+    }
+    .green-subtitle {
+        color:green;
+    }
     .injected-text {
         margin-bottom: -25px;
         text-align: center;
