@@ -1,9 +1,12 @@
     body {
         background-color: black;
-        color:green;
+        color:blue;
         font-family:monospace;
 }
-  
+    .pink-subtitle {
+        color: deeppink;
+        font-family: cursive;
+    }
     .injected-text {
         margin-bottom: -25px;
         text-align: center;
