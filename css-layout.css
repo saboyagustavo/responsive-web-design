@@ -2,7 +2,10 @@
         background-color: black;
         color:blue;
         font-family:monospace;
-}
+    }
+    #orange-subitle {
+        color:orange;
+    }
     .pink-subtitle {
         color: deeppink;
         font-family: cursive;
