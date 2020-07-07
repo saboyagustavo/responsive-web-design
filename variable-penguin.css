@@ -1,9 +1,9 @@
   .penguin {
 
     /* I've only changed code below this line */
-    --penguin-skin: black;
-    --penguin-belly: gray;
-    --penguin-beak: yellow;
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
     /* I've only changed code above this line */
 /*All below this line was drawed by freeCodeCamp.org*/
     position: relative;
