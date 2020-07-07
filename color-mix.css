@@ -1,42 +1,12 @@
-    body {
-        background-color: whitesmoke;
-        color:black;
-        font-family:monospace;
-    }
-    p {
-        text-align:center;
-        margin:0px;
-        padding:0px;
-    }
-    h1 {
-        font-family:"Lobster", monospace;
-        font-size:1.8em;
-        text-shadow: rgba(0, 0, 0,.3) 0.1px .1px;
-    }
-    .red-rect {
-        background-color:#ff0000;
-    }
-    .orange-rect {
-        background-color: hsl(39, 100%, 50%);
-    }
-    .yellow-rect {
-        background-color:rgb(255, 255, 0);
-    }
-    .green-rect {
-        background-color:#008000;
-    }
-    .blue-rect {
-        background-color:hsl(240, 100%, 50%);
-    }
-    .violet-rect {
-        background-color:#ee82ee;
-    }
-    .indigo-rect {
-        background-color:indigo;
-    }
-    .injected-text {
-        margin-bottom: -105px;
-        margin-right: 400px;
-        text-align: center;
-        color:white;
-    }
+.red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: #0F0;
+  }
