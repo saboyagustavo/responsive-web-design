@@ -5,7 +5,7 @@
   <style>
   .ball {
     position:relative;
-    top:50vh;
+    top:25vh;
     width: 40px;
     height: 40px;
     margin: 50 auto;
@@ -29,10 +29,26 @@
   #ball2:hover{
     transform:scale(1.5);
   }
+  .rect {
+    position:relative;
+    top:50vh;
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+     53deg,
+     #ccfffc,
+     #ffcccf
+      );
+  }
+  .rect:hover {
+    transform: scale(1.1);
+  }
   </style>
   </head>
   <body>
   <div class="ball" id= "ball1"></div>
   <div class="ball" id= "ball2"></div>
+  <div class="rect"></div>
 </body>
 </html>
