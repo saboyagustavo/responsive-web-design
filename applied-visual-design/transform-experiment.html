@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>transform</title>
+  <style>
+  .ball {
+    position:relative;
+    top:50vh;
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    border-radius: 50%;
+  }
+  #ball1 {
+    left: 20%;
+  }
+  #ball1:hover{
+    transform:scale(0.5);
+  }
+  #ball2 {
+    left: 65%;
+  }
+  #ball2:hover{
+    transform:scale(1.5);
+  }
+  </style>
+  </head>
+  <body>
+  <div class="ball" id= "ball1"></div>
+  <div class="ball" id= "ball2"></div>
+</body>
+</html>
