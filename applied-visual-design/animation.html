@@ -1,34 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <style>
-            div {
-              height: 40px;
-              width: 70%;
-              background: black;
-              margin: 50px auto;
-              border-radius: 5px;
+<head>
+    <style>
+        body {
+          background-color: #ffffff;
+        }
+        header {
+          background-color: hsl(178, 90%, 35%);
+          color: white;
+          padding: 0.25em;
+        }
+        nav {
+            background-color:hsl(178,80%,25%);
+        }
+        nav ul {
+          margin: 0px;
+          padding: 5px 0px 5px 30px;
+        }
+
+        nav li {
+          display: inline;
+          margin-right: 20px;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        h1{
+            text-indent:20px;
+            padding-top:10px;
+        }
+        h2 {
+          color: teal;
+        }
+        button {
+          background-color: orange;
+        }
+        button:hover{
+            animation-name:bg-button;
+            animation-duration:500ms;
+        }
+        @keyframes bg-button{
+            100%{
+                background-color:magenta;
             }
-          
-            #rect {
-                animation-name:rainbow;
-                animation-duration:4s;
-                }
-                  @keyframes rainbow {
-                    0% {
-                    background-color:blue;
-                    }
-                    50% {
-                    background-color:green;
-                    }
-                    100% {
-                    background-color:yellow;
-                    }
-            }
-          </style>
-    </head>
-    <body>
-        <div id="rect"></div>
-    </body>
+        }
+        footer {
+          background-color: #09A7A1;
+          color: white;
+          padding: 0.5em;
+        }
+      </style>
+      <header>
+        <h1>Cooking with FCC!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <h2>Machine Learning in the Kitchen</h2>
+          <p>Join this two day workshop that walks through how to implement cutting-edge snack-getting algorithms with a command line interface. Coding usually involves writing exact instructions, but sometimes you need your computer to execute flexible commands, like <code>fetch Pringles</code>.</p>
+          <button>Sign Up</button>
+        </article>
+        <article>
+          <h2>Bisection Vegetable Chopping</h2>
+          <p>This week-long retreat will level-up your coding ninja skills to actual ninja skills. No longer is the humble bisection search limited to sorted arrays or coding interview questions, applying its concepts in the kitchen will have you chopping carrots in O(log n) time before you know it.</p>
+          <button>Sign Up</button>
+        </article>
+      </main>
+      <br>
+      <footer>&copy; 2018 FCC Kitchen</footer>                  
+</body>
 </html>
