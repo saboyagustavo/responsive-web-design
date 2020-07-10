@@ -3,30 +3,68 @@
 <head>
     <style>
         body {
-          background-color: #FFFFFF;
+          background-color: #ffffff;
         }
-      /*"hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360." - freeCodeCamp*/
-        .green {
-          background-color: hsl(120,100%,50%);
+        header {
+          background-color: hsl(178, 90%, 35%);
+          color: white;
+          padding: 0.25em;
         }
-      /*"Saturation is the amount of gray in a color." */
-        .cyan {
-          background-color: hsl(180,100%,50%);
+        nav {
+            background-color:hsl(178,80%,25%);
         }
-      /*"Lightness is the amount of white or black in a color. "*/
-        .blue {
-          background-color: hsl(240,100%,50%);
+        nav ul {
+          margin: 0px;
+          padding: 5px 0px 5px 30px;
         }
-      
-        div {
-          display: inline-block;
-          height: 100px;
-          width: 100px;
+
+        nav li {
+          display: inline;
+          margin-right: 20px;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        h1{
+            text-indent:20px;
+            padding-top:10px;
+        }
+        h2 {
+          color: teal;
+        }
+        button {
+          background-color: orange;
+        }
+        footer {
+          background-color: #09A7A1;
+          color: white;
+          padding: 0.5em;
         }
       </style>
-      
-      <div class="green"></div>
-      <div class="cyan"></div>
-      <div class="blue"></div>              
+      <header>
+        <h1>Cooking with FCC!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <h2>Machine Learning in the Kitchen</h2>
+          <p>Join this two day workshop that walks through how to implement cutting-edge snack-getting algorithms with a command line interface. Coding usually involves writing exact instructions, but sometimes you need your computer to execute flexible commands, like <code>fetch Pringles</code>.</p>
+          <button>Sign Up</button>
+        </article>
+        <article>
+          <h2>Bisection Vegetable Chopping</h2>
+          <p>This week-long retreat will level-up your coding ninja skills to actual ninja skills. No longer is the humble bisection search limited to sorted arrays or coding interview questions, applying its concepts in the kitchen will have you chopping carrots in O(log n) time before you know it.</p>
+          <button>Sign Up</button>
+        </article>
+      </main>
+      <br>
+      <footer>&copy; 2018 FCC Kitchen</footer>                  
 </body>
 </html>
