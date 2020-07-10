@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>colors</title>
   <style>
 /*The angle value is the direction of the gradient. 
 Color stops are like width values that mark where a transition takes place, 
@@ -12,13 +13,15 @@ and are given with a percentage or a number of pixels.*/
       margin:  50 auto;
       background: repeating-linear-gradient(
       45deg,
-      pink 0px,
-      deeppink 40px,
-      magenta 40px,
-      whitesmoke 80px
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
     );
     }
-  
+  /*If every two color stop values are the same color, 
+  the blending isn't noticeable because it's between the same color, 
+  followed by a hard transition to the next color, so you end up with stripes.*/
   </style>
   <div></div>         
 </body>
