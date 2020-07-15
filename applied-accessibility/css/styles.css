@@ -13,3 +13,11 @@
     background-color: hsl(120, 25%, 55%);
 }
 /*fixed the contrast issue by adding lightness to foreground and background color properties*/
+/*"Different styles for an important button, but the yellow (#FFFF33) background-color and the green (#33FF33) text color were neighboring hues on the color wheel and virtually indistinguishable for some colorblind users."*/
+ .submit {
+    color: #003366;
+    background-color: #FFFF33;
+    font-size: 14px;
+    padding: 10px;
+  }
+ }
