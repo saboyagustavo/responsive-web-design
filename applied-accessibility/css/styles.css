@@ -7,7 +7,9 @@
     width: 1px;
     height: 1px;
  }
+ /*In practice, the 4.5:1 contrast ratio can be reached by shading (adding black to) the darker color and tinting (adding white to) the lighter color. */
  body {
-     color: #636363;
-     background-color: #FFF;
- }
+    color: hsl(0, 55%, 15%);
+    background-color: hsl(120, 25%, 55%);
+}
+/*fixed the contrast issue by adding lightness to foreground and background color properties*/
