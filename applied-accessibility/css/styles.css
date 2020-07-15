@@ -1,7 +1,4 @@
-/*"All of the applied accessibility challenges so far haven't used any CSS yet. 
- This is to show the importance of a logical document outline,
- and using semantically meaningful tags around your content before
- introducing the visual design aspect." - freeCodeCamp.org*/
+/*"The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text." - freeCodeCamp.org*/
  .sr-only {
     overflow: hidden;
     position: absolute ;
@@ -9,4 +6,8 @@
       top: auto;
     width: 1px;
     height: 1px;
+ }
+ body {
+     color: #636363;
+     background-color: #FFF;
  }
