@@ -20,4 +20,6 @@
     font-size: 14px;
     padding: 10px;
   }
- }
+p:focus {
+    background-color: yellow;
+}
