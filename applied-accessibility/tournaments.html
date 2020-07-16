@@ -24,10 +24,14 @@
                 <figcaption>Choose your destiny!</figcaption>
               </figure>
               <form>
-               <p>Tell us the best date for the competition.</p>
-               <label for="pickdate">Preferred Date:</label>
-               <input type="date" id="pickdate" name="date">
-               <input class="submit" type="submit" name="submit" value="Submit">
+               <fieldset>
+                 <legend>Submit your nickname and the best date for the competition.</legend>
+                  <label for="nickname">Nickname:</label>
+                 <input type="text" placeholder="nom de guerre" id="nickname" name="nickname">
+                  <label for="pickdate">Preferred Date:</label>
+                 <input type="date" id="pickdate" name="date">
+                  <input class="submit" type="submit" name="submit" value="Submit">
+              </fieldset>
               </form> 
         <div>
             <h2>Ninja Survey</h2>
@@ -36,7 +40,7 @@
              <fieldset>
               <legend>What ninja level are you?</legend>
                 <input type="radio" id="newbie" name="levels &amp; weapons" value="newbie">
-                <label for="newbie">Newbiew Kitten</label><br>
+                <label for="newbie">Newbie Kitten</label><br>
                 <input type="radio" id="intermediate" name="levels &amp; weapons" value="intermediate">
                 <label for="student">Developing Student</label><br>
                 <input type="radio" id="master" name="levels &amp; weapons" value="master">
