@@ -13,9 +13,7 @@
                 font-size: 10px;
             }
         }
-        /* "The max-width of 100% will make sure the image is never wider than the container it is in,
-        and the height of auto will make the image keep its original aspect ratio."
-        - freeCodeCamp.org */
+
         .responsive-img {
             max-width: 100%;
             height: auto;
@@ -27,17 +25,35 @@
         }
 
         .retina {
-            width:100px;
-            height:100px;
+            width: 100px;
+            height: 100px;
+        }
+     
+        /* "Viewport units are relative to the viewport dimensions (width or height) of a device,
+        and percentages are relative to the size of the parent container element.
+        The four different viewport units are: 
+        - vh (viewport height)
+        - vw (viewport width)
+        - vmin (viewport minimum)
+        - vmax (viewport max) 
+        - freeCodeCamp.org */
+        h2 {
+            width: 80vw;
+        }
+
+        p {
+            width: 75vmin;
         }
     </style>
 </head>
 
 <body>
-    <img class="retina" src="https://s3.amazonaws.com/freecodecamp/FCCStickers-CamperBot200x200.jpg" alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
+    <img class="retina" src="https://s3.amazonaws.com/freecodecamp/FCCStickers-CamperBot200x200.jpg"
+        alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
     <img class="responsive-img" src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg"
         alt="freeCodeCamp stickers set">
     <img src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+    <h2>Importantus Ipsum</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel
         vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
         habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem.
