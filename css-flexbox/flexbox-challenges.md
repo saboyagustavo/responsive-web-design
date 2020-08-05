@@ -6,3 +6,4 @@ Objectives: Learn how to use flexbox and the different layout options it offers.
 ## Tasks
 > - [x] Use display: flex to Position Two Boxes
 > - [x] Add Flex Superpowers to the Tweet Embed
+> - [x] Use the flex-direction Property to Make a Row
