@@ -4,4 +4,5 @@ _freeCodeCamp Responsive Web Design Certification_\
 Objectives: Learn how to use flexbox and the different layout options it offers.
 
 ## Tasks
-> - [] Use display: flex to Position Two Boxes
+> - [x] Use display: flex to Position Two Boxes
+> - [] Add Flex Superpowers to the Tweet Embed
