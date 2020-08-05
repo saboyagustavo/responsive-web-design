@@ -12,4 +12,6 @@ Objectives: Learn how to use flexbox and the different layout options it offers.
 > - [x] Apply the flex-direction Property to Create a Column in the Tweet Embed
 > - [x] Align Elements Using the justify-content Property
 > - [x] Use the justify-content Property in the Tweet Embed
-> - [] Align Elements Using the align-items Property
+> - [x] Align Elements Using the align-items Property
+> - [x] Use the align-items Property in the Tweet Embed
+> - [] Use the flex-wrap Property to Wrap a Row or Column
