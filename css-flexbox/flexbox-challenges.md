@@ -8,3 +8,5 @@ Objectives: Learn how to use flexbox and the different layout options it offers.
 > - [x] Add Flex Superpowers to the Tweet Embed
 > - [x] Use the flex-direction Property to Make a Row
 > - [x] Apply the flex-direction Property to Create Rows in the Tweet Embed
+> - [x] Use the flex-direction Property to Make a ColumnPassed
+> - [] Apply the flex-direction Property to Create a Column in the Tweet Embed
