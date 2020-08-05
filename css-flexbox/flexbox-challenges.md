@@ -11,4 +11,5 @@ Objectives: Learn how to use flexbox and the different layout options it offers.
 > - [x] Use the flex-direction Property to Make a ColumnPassed
 > - [x] Apply the flex-direction Property to Create a Column in the Tweet Embed
 > - [x] Align Elements Using the justify-content Property
-> - [] Use the justify-content Property in the Tweet Embed
+> - [x] Use the justify-content Property in the Tweet Embed
+> - [] Align Elements Using the align-items Property
