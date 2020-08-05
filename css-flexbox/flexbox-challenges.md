@@ -20,3 +20,4 @@ Objectives: Learn how to use flexbox and the different layout options it offers.
 > - [x] Use the flex-basis Property to Set the Initial Size of an Item
 > - [x] Use the flex Shorthand Property
 > - [x] Use the align-self and justify-self Properties
+### Challenge finished at 2020-08-05 19:00 GMT -3
