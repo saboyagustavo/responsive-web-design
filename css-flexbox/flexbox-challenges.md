@@ -17,3 +17,4 @@ Objectives: Learn how to use flexbox and the different layout options it offers.
 > - [x] Use the flex-wrap Property to Wrap a Row or Column
 > - [x] Use the flex-shrink Property to Shrink Items
 > - [x] Use the flex-grow Property to Expand Items
+> - [x] Use the flex-basis Property to Set the Initial Size of an Item
