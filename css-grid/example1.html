@@ -28,13 +28,11 @@
             font-size:40px;
             width: 100%;
             background:lightgray;
-            /*Turning a HTML element into a grid container*/
             display:grid;
-            /*Defining the structure of the grid */
-            grid-template-columns: 100px 100px 100px;
+            /*fr for fractions; auto for the item get size of the content;
+            px for absolute units; em or rem for relative units;*/
+            grid-template-columns: 1fr 100px 2fr;
             grid-template-rows:50px 50px;
-            /*The number of parameters given to the properties above indicates 
-            the number of rows or columns in the grid*/
         }
     </style>
 </head>

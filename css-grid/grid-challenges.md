@@ -7,3 +7,4 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Create Your First CSS Grid
 > - [x] Add Columns with grid-template-columns
 > - [x] Add Rows with grid-template-rows
+> - [x] Use CSS Grid units to Change the Size of Columns and Rows
