@@ -8,3 +8,6 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Add Columns with grid-template-columns
 > - [x] Add Rows with grid-template-rows
 > - [x] Use CSS Grid units to Change the Size of Columns and Rows
+> - [x] Create a Column Gap Using grid-column-gap
+> - [x] Create a Row Gap Using grid-row-gap
+> - [x] Add Gaps Faster with grid-gap

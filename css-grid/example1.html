@@ -29,11 +29,15 @@
             width: 100%;
             background:lightgray;
             display:grid;
-            /*fr for fractions; auto for the item get size of the content;
-            px for absolute units; em or rem for relative units;*/
-            grid-template-columns: 1fr 100px 2fr;
-            grid-template-rows:50px 50px;
-        }
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows:1fr 1fr 1fr;
+                    /*grid-column-gap: 20px;
+                    grid-row-gap: 5px;
+                    These properties above creates empty space between all columns or rows
+                    for a shorthand, I shall use this property below. */
+                    grid-gap: 5px 20px;
+                    /*1st value for rows, 2nd for columns; Just one for both*/
+        }           
     </style>
 </head>
 
