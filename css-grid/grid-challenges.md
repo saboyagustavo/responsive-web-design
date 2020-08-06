@@ -4,7 +4,6 @@ _freeCodeCamp Responsive Web Design Certification_\
 Objectives: Easily build complex web designs by turning HTML element into a grid container with rows and columns.
 
 ## Tasks
-> - [] Create Your First CSS Grid
-> - [] 
-> - [] 
-> - []  
+> - [x] Create Your First CSS Grid
+> - [x] Add Columns with grid-template-columns
+> - [x] Add Rows with grid-template-rows

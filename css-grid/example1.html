@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>CSS Grid</title>
     <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            padding:5px;
+        }
         .d1 {
             background:lightskyblue;
         }
@@ -24,7 +28,14 @@
             font-size:40px;
             width: 100%;
             background:lightgray;
-            }
+            /*Turning a HTML element into a grid container*/
+            display:grid;
+            /*Defining the structure of the grid */
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows:50px 50px;
+            /*The number of parameters given to the properties above indicates 
+            the number of rows or columns in the grid*/
+        }
     </style>
 </head>
 
