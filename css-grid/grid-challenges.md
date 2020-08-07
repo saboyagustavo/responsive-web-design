@@ -11,3 +11,5 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Create a Column Gap Using grid-column-gap
 > - [x] Create a Row Gap Using grid-row-gap
 > - [x] Add Gaps Faster with grid-gap
+> - [x] Use grid-column to Control Spacing
+> - [x] Use grid-row to Control Spacing

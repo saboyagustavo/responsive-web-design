@@ -11,18 +11,28 @@
         }
         .d1 {
             background:lightskyblue;
+            grid-column:1/4;
         }
         .d2 {
             background: lightsalmon;
+            grid-row:2/5;
         }
         .d3 {
             background: paleturquoise;
+            grid-row:2/4;
+            grid-column:2/4;
+            /*To control the amount of rows an item will consume
+            based on grid-lines (horizontal intervals between items)*/
         }
         .d4 {
             background: lightpink;
+            grid-column:2/4;
         }
         .d5 {
             background: palegreen;
+            grid-column:1/4;
+            /*To control the amount of columns an item will consume
+            based on grid-lines (vertical intervals between items)*/
         }
         .container {
             font-size:40px;
@@ -31,12 +41,7 @@
             display:grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows:1fr 1fr 1fr;
-                    /*grid-column-gap: 20px;
-                    grid-row-gap: 5px;
-                    These properties above creates empty space between all columns or rows
-                    for a shorthand, I shall use this property below. */
-                    grid-gap: 5px 20px;
-                    /*1st value for rows, 2nd for columns; Just one for both*/
+                grid-gap: 5px 20px;
         }           
     </style>
 </head>
