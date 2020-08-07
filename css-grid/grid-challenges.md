@@ -13,3 +13,5 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Add Gaps Faster with grid-gap
 > - [x] Use grid-column to Control Spacing
 > - [x] Use grid-row to Control Spacing
+> - [x] Align an Item Horizontally using justify-self
+> - [x] Align an Item Vertically using align-self
