@@ -15,3 +15,7 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Use grid-row to Control Spacing
 > - [x] Align an Item Horizontally using justify-self
 > - [x] Align an Item Vertically using align-self
+> - [x] Align All Items Horizontally using justify-items
+> - [x] Align All Items Vertically using align-items
+> - [x] Divide the Grid Into an Area Template
+> - [x] Place Items in Grid Areas Using the grid-area Property
