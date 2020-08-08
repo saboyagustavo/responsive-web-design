@@ -25,4 +25,5 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Create Flexible Layouts Using auto-fill
 > - [x] Create Flexible Layouts Using auto-fit
 > - [x] Use Media Queries to Create Responsive Layouts
-> - [] Create Grids within Grids
+> - [x] Create Grids within Grids
+### Challenge finished at 2020-08-08 14:21 GMT -3
