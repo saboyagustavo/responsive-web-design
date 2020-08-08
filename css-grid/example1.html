@@ -34,11 +34,8 @@
             width: 100%;
             background:lightgray;
             display:grid;
-                grid-template-columns: repeat(3,1fr);
-                grid-template-rows: repeat(3,1fr);
-                grid-template-areas:"header header header"
-                "main main ad"
-                "footer footer footer";
+                grid-template-columns: repeat(3, minmax(90px,1fr));
+                grid-template-rows: repeat(3, minmax(90px,1fr));
                 grid-gap: 20px;
                 
         }           

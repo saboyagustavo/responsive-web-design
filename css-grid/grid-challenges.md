@@ -21,3 +21,4 @@ Objectives: Easily build complex web designs by turning HTML element into a grid
 > - [x] Place Items in Grid Areas Using the grid-area Property
 > - [x] Use grid-area Without Creating an Areas Template
 > - [x] Reduce Repetition Using the repeat Function
+> - [x] Limit Item Size Using the minmax Function
